@@ -103,13 +103,16 @@ main {
   flex-wrap: wrap;
   padding: 1rem;
   font-size: 1.5rem;
-  width: 2560px;
-  height: 700px;
   background-color: rgb(255, 255, 255);
 }
 
+.productosCards{
+  display: flex;
+  flex-direction: row;
+}
+
 .novedades {
-  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
 }
 
 .novedades__titulo {
