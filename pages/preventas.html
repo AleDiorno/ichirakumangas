@@ -1,214 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ichiraku Mangas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <div class="header__logo">
-                <img src="../img/Ichiraku.png" alt="">
+    <div class="container-fluidencabezado">
+        <div class="row">
+            <div class="col-xxl-1 col-md-12 nombreTitulo">
+                <img src="../img/Ichiraku.png" alt="logo">
             </div>
-            <ul class="header__menu__1">
-                <li class="header__nombre">Ichiraku Mangas</li>
-                <li class="header__descripcion">Venta de mangas</li>
-            </ul>
-        </nav>
-        <div class="header__menu__2">
-            <ul class="header__sesion">
-                <li >
-                    Iniciar Sesion/
-                </li>
-                <li>
-                    Registrarse  
-                </li>
-                <li class="header__carrito">
-                    <img src="../img/carrritoreal.png" alt="Carrito" class="carrito">
-                </li>
-            </ul>
+            <div class="col-xxl-11 col-md-12 nombreTituloo">
+                <ul class="nombreTituloLista">
+                    <li class="nombre">Ichiraku mangas</li>
+                    <li class="descripcion">Venta de mangas</li>
+                </ul>
+                <ul class="carrito">
+                    <li><a href=""></a>Iniciar Sesion</li>
+                    <li><a href=""></a>Registrarse</li>
+                    <li class="carrrito"><a href=""></a><img src="../img/carrritoreal.png" alt="carrito"></li>
+                </ul>
+            </div>
         </div>
-    </header>
-        <nav class="nav__secciones">
-            <ul class="nav__menu">
-                <li class="nav__items">
-                    <a class="nav__link" href="../index.html">Inicio</a>
-                </li>
-                 <li class="nav__items">
-                    <a class="nav__link" href="./mangas.html">Mangas</a>
-                </li>
-                    <li class="nav__items">
-                    <a class="nav__link" href="./preventas.html">Preventas</a>
-                </li>
-                <li class="nav__items">
-                    <a class="nav__link" href="./figuras.html">Figuras</a>
-                </li>
-                <li class="nav__items">
-                    <a class="nav__link" href="./preguntasfrecuentes.html">Preguntas Frecuentes</a>
-                </li>
-            </ul>
+    </div>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bgpropio">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="./img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/mangas.html">Mangas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="../pages/preventas.html">Preventas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/figuras.html">Figuras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/figuras.html">Preguntas frecuentes</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
-            <main class="main__mangas">
-                <div class="categorias">
+    </header>
+    <main class="main__mangas">
+        <div class="container-fluid productosCards p-3 m-3 gap-3">
+            <div class="row">
+                <div class="categorias col-xxl-2">
                     <div class="categorias__titulo">
                         <h1>Categorias</h1>
                     </div>
                     <ul class="categorias__lista">
-                        <li>Panini</li>
-                        <li>Ivrea</li>
-                        <li>Planeta</li>
-                        <li>Merci</li>
-                        <li>Distrito Manga</li>
-                        <li>Utopia</li>
-                        <li>Ovni</li>
-                        <li>Comics</li>
-                        <li>Novelas graficas</li>
+                        <li><a href=""></a>Panini</li>
+                        <li><a href=""></a>Ivrea</li>
+                        <li><a href=""></a>Planeta</li>
+                        <li><a href=""></a>Merci</li>
+                        <li><a href=""></a>Distrito Manga</li>
+                        <li><a href=""></a>Utopia</li>
+                        <li><a href=""></a>Ovni</li>
+                        <li><a href=""></a>Comics</li>
+                        <li><a href=""></a>Novelas graficas</li>
                     </ul>
                 </div>
-                <div class="productos__preventa">
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Naruto - 27 - Preventa</p>
-                        <p class="producto__precio">$1820</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Green Blood - 02 - Preventa</p>
-                        <p class="producto__precio">$3150</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Black Clover - 26 - Preventa</p>
-                        <p class="producto__precio">$2250</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Basilisk - 03 - Preventa</p>
-                        <p class="producto__precio">$2520</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Slam Dunk - 06 - Preventa</p>
-                        <p class="producto__precio">$4320</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">IrumaKun - 01 - Preventa</p>
-                        <p class="producto__precio">$4320</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Strobe Edge - 01 - Preventa</p>
-                        <p class="producto__precio">$2250</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Complex Age - 04 - Preventa</p>
-                        <p class="producto__precio">$2700</p>
-                    </div>
-                    
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Perfect World - 09 - Preventa</p>
-                        <p class="producto__precio">$2250</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt=""class="producto__imagen">
-                        <p class="producto__nombre">Hunter x Hunter - 24 - Preventa</p>
-                        <p class="producto__precio">$2250</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Naruto - 28 - Preventa</p>
-                        <p class="producto__precio">$1890</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Haikyu!! - 20 - Preventa</p>
-                        <p class="producto__precio">$2300</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Naruto - 39 - Preventa</p>
-                        <p class="producto__precio">$1890</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Black Clover - 24 - Preventa</p>
-                        <p class="producto__precio">$2250</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">My Hero Academia - 34 - Preventa</p>
-                        <p class="producto__precio">$2300</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Blue Lock - 10 - Preventa</p>
-                        <p class="producto__precio">$2300</p>
-                    </div>
-                    <div class="producto__1">
-                        <img src="../img/imagen2.png" alt="" class="producto__imagen">
-                        <p class="producto__nombre">Black Clover - 19 - Preventa</p>
-                        <p class="producto__precio">$2250</p>
-                    </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6 col-xs-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg img-fluid" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">My hero Academia - 36 - Preventa</h5>
+                            <p class="cardPrecio">$2300</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
                     </div>
                 </div>
-            </main>
-        <footer>
-            <div class="mediosPago">
-                <div class="mediosPago__titulo">
-                    <h1>Medios de pago</h1>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Hunter x Hunter - 24 - Preventa</h5>
+                            <p class="cardPrecio">$2250</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="mediosPago__imagen">
-                    <img src="../img/tarjeta.png" alt="tarjeta">
-                    <img src="../img/tarjeta.png" alt="tarjeta">
-                    <img src="../img/tarjeta.png" alt="tarjeta">
-                    <img src="../img/tarjeta.png" alt="tarjeta">
-                    <img src="../img/tarjeta.png" alt="tarjeta">
-                    <img src="../img/tarjeta.png" alt="tarjeta">
-                    <img src="../img/tarjeta.png" alt="tarjeta">
-                    <img src="../img/tarjeta.png" alt="tarjeta">
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Black Clover - 23 - Preventa</h5>
+                            <p class="cardPrecio">$2250</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Blue Lock - 14 - Preventa</h5>
+                            <p class="cardPrecio">$2300</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Naruto - 42 - Preventa</h5>
+                            <p class="cardPrecio">$1890</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Haikyu!! - 20 - Preventa</h5>
+                            <p class="cardPrecio">$2300</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Naruto - 42 - Preventa</h5>
+                            <p class="cardPrecio">$1890</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Blue Lock - 13 - Preventa</h5>
+                            <p class="cardPrecio">$2300</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Black Clover - 22 - Preventa</h5>
+                            <p class="cardPrecio">$2250</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Hunter x Hunter - 23 - Preventa</h5>
+                            <p class="cardPrecio">$2250</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">My hero Academia - 35 - Preventa</h5>
+                            <p class="cardPrecio">$2250</p>
+                            <a href="#" class="btn cardBoton btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Haikyu!! - 19 - Preventa</h5>
+                            <p class="cardPrecio">$2300</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6 col-xs-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg img-fluid" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">My hero Academia - 33 - Preventa</h5>
+                            <p class="cardPrecio">$2300</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Hunter x Hunter - 22 - Preventa</h5>
+                            <p class="cardPrecio">$2250</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Black Clover - 21 - Preventa</h5>
+                            <p class="cardPrecio">$2250</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Blue Lock - 12 - Preventa</h5>
+                            <p class="cardPrecio">$2300</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xxl-2 col-xs-6 col-sm-6">
+                    <div class="card border-0 text-center">
+                        <img src="../img/imagen2.png" class="cardImg" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="cardTitulo">Haikyu!! - 18 - Preventa</h5>
+                            <p class="cardPrecio">$2300</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="mediosPago col-xxl-3 col-xs-12 col-md-6">
+                    <div class="mediosPago__titulo">
+                        <h1>Medios de pago</h1>
+                    </div>
+                    <div class="mediosPago__imagen">
+                        <img src="../img/tarjeta.png" alt="tarjeta">
+                        <img src="../img/tarjeta.png" alt="tarjeta">
+                        <img src="../img/tarjeta.png" alt="tarjeta">
+                        <img src="../img/tarjeta.png" alt="tarjeta">
+                        <img src="../img/tarjeta.png" alt="tarjeta">
+                        <img src="../img/tarjeta.png" alt="tarjeta">
+                        <img src="../img/tarjeta.png" alt="tarjeta">
+                        <img src="../img/tarjeta.png" alt="tarjeta">
+                    </div>
+                </div>
+                <div class="formasEnvio col-xxl-3 col-xs-12 col-md-6">
+                    <div class="formasEnvio__titulo">
+                        <h1>Formas de envio</h1>
+                    </div>
+                    <div class="formasEnvio__imagen">
+                        <img src="../img/avion-fotor-bg-remover-2023081320838.png" alt="avion">
+                        <img src="../img/cohete-fotor-bg-remover-20230813201157-fotor-bg-remover-20230813201434.png"
+                            alt="cohete">
+                        <img src="../img/tren-fotor-bg-remover-20230813201017-fotor-bg-remover-20230813201452.png"
+                            alt="tren">
+                        <img src="../img/camion-fotor-bg-remover-2023081320116-fotor-bg-remover-20230813201416.png"
+                            alt="camion">
+                        <img src="../img/bici-fotor-bg-remover-2023081320943-fotor-bg-remover-20230813201346.png"
+                            alt="bici">
+                    </div>
+                </div>
+                <div class="contactanos col-xxl-3 col-xs-12 col-md-6">
+                    <div class="contactanos__titulo">
+                        <h1>Contactanos</h1>
+                    </div>
+                    <div>
+                        <ul class="contactanos__lista">
+                            <li>📱 2226-786289</li>
+                            <li>📧 ichirakumangas@gmail.com</li>
+                            <li>🏠 callefalsa123</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="redesSociales col-xxl-3 col-xs-12 col-md-6">
+                    <div class="redesSociales__titulo">
+                        <h1>Redes sociales</h1>
+                    </div>
+                    <div>
+                        <ul class="redesSociales__lista">
+                            <li>📷 ichirakumangas</li>
+                            <li>💬 Ichiraku Mangas</li>
+                            <li>✖️ @IchirakuMangas</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="formasEnvio">
-                <div class="formasEnvio__titulo">
-                    <h1>Formas de envio</h1>
-                </div>
-                <div class="formasEnvio__imagen">
-                    <img src="../img/avion-fotor-bg-remover-2023081320838.png" alt="avion">
-                    <img src="../img/cohete-fotor-bg-remover-20230813201157-fotor-bg-remover-20230813201434.png" alt="cohete">
-                    <img src="../img/tren-fotor-bg-remover-20230813201017-fotor-bg-remover-20230813201452.png" alt="tren">
-                    <img src="../img/camion-fotor-bg-remover-2023081320116-fotor-bg-remover-20230813201416.png" alt="camion">
-                    <img src="../img/bici-fotor-bg-remover-2023081320943-fotor-bg-remover-20230813201346.png" alt="bici">
-                </div>
-            </div>
-            <div class="contactanos">
-                <div class="contactanos__titulo">
-                    <h1>Contactanos</h1>
-                </div>
-                <div>
-                    <ul class="contactanos__lista">
-                        <li>📱 2226-786289</li>
-                        <li>📧 ichirakumangas@gmail.com</li>
-                        <li>🏠 callefalsa123</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="redesSociales">
-                <div class="redesSociales__titulo">
-                    <h1>Redes sociales</h1>
-                </div>
-                <div>
-                    <ul class="redesSociales__lista">
-                        <li>📷 ichirakumangas</li>
-                        <li>💬 Ichiraku Mangas</li>
-                        <li>✖️ @IchirakuMangas</li>
-                    </ul>
-                </div>
-            </div>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

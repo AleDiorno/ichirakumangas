@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
@@ -64,7 +65,7 @@ body {
   justify-content: space-between;
   flex-direction: row;
   list-style: none;
-  padding: 5px;
+  padding: 15px;
 }
 
 .carrito img {
@@ -284,13 +285,6 @@ footer {
   height: 680px;
   width: 2299px;
   overflow: scroll;
-}
-
-.preguntasFrecuentes {
-  overflow: scroll;
-  line-height: 200%;
-  height: 680px;
-  width: 2600px;
 }
 
 .pregunta {
