@@ -41,7 +41,6 @@ body {
   display: flex;
   justify-content: end;
   flex-direction: row;
-  width: 1900px;
 }
 .header__sesion{
   list-style: none;
@@ -106,9 +105,18 @@ main {
   background-color: rgb(255, 255, 255);
 }
 
-.productosCards{
-  display: flex;
-  flex-direction: row;
+.cardImg{
+  width: 205px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.cardTitulo{
+  text-align: center;
+}
+
+.cardPrecio{
+  text-align: center;
 }
 
 .novedades {
@@ -176,8 +184,8 @@ footer {
 }
 
 .mediosPago__imagen img {
-  height: 100px;
-  width: 100px;
+  height: 85px;
+  width: 85px;
   padding: 10px;
   margin: 5px;
 }
@@ -196,8 +204,8 @@ footer {
 }
 
 .formasEnvio__imagen img {
-  height: 100px;
-  width: 100px;
+  height: 85px;
+  width: 85px;
   padding: 10px;
   margin: 5px;
 }
