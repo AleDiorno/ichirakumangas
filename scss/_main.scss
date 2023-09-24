@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    .novedades {
+        margin: 0 auto;
+    }
+    .productosCards{
+        .cardImg {
+            width: 205px;
+            height: 310px;
+            margin: 0 auto;
+        }   
+        .cardTitulo {
+            text-align: center;
+        }
+        .cardPrecio {
+            text-align: center;
+        }
+    }
+}
+
+.main__mangas{
+    .categorias{
+        .categorias__titulo {
+            font-size: 1.5rem;
+        }
+        .categorias__lista {
+            list-style: inside;
+            padding: 5px;
+        }
+    }
+}
+
+.main__preguntasFrecuentes{
+    .pregunta {
+        font-size: 2.6rem;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .respuesta {
+        font-size: 1.8rem;
+    }
+}

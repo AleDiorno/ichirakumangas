@@ -1,0 +1,45 @@
+.header{
+    .nombreTitulo {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        background-color: rgb(255, 145, 77);
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+        }
+    }
+    .nombreTituloo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(255, 145, 77);
+        .nombreTituloLista {
+            list-style: none;
+            color: rgb(0, 0, 0);
+            .nombre {
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                font-size: 3.5rem;
+            }
+            .descripcion {
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                font-size: 2.5rem;
+            }
+        }
+        .carrito {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            list-style: none;
+            padding: 15px;
+            .carritoImagen {
+                padding: 4px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}

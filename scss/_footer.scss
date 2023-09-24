@@ -1,0 +1,70 @@
+footer {
+    background-color: #ff914d;
+    display: flex;
+    .mediosPago{
+        .mediosPago__titulo {
+            font-size: 1.3rem;
+            margin: 10px;
+        }
+        .mediosPago__imagen {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 10px;
+            .tarjetas{
+                height: 85px;
+                width: 85px;
+                padding: 10px;
+                margin: 5px;
+            }
+        }
+    }
+    .formasEnvio{
+        .formasEnvio__titulo {
+            font-size: 1.7rem;
+            padding-left: 1.5rem;
+        }
+        .formasEnvio__imagen {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-left: 1.5rem;
+            .transporte{
+                height: 85px;
+                width: 85px;
+                padding: 10px;
+                margin: 5px;
+            }
+        }
+    }
+    .contactanos{
+        .contactanos__titulo {
+            font-size: 1.7rem;
+            padding-left: 1.5rem;
+        }
+        .contactanos__lista {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            list-style: none;
+            font-size: 1.5rem;
+            padding-left: 1.5rem;
+        }
+    }
+    .redesSociales{
+        .redesSociales__titulo {
+            font-size: 1.7rem;
+            padding-left: 1.5rem;
+        }
+        .redesSociales__lista {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            list-style: none;
+            font-size: 1.5rem;
+            padding-left: 1.5rem;
+        }
+    }
+}

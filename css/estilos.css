@@ -2,73 +2,48 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-body {
-  background-color: rgb(252, 252, 252);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.encabezado{
-  display: flex;
-}
-.nombreTitulo {
+.header .nombreTitulo {
   display: flex;
   flex-direction: row;
   justify-content: start;
   background-color: rgb(255, 145, 77);
 }
-
-.nombreTituloo {
+.header .nombreTitulo .logo {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+.header .nombreTituloo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(255, 145, 77);
 }
-
-.nombreTitulo img {
-  width: 150px;
-  height: 150px;
-  margin: auto;
-}
-.nombreTituloLista {
+.header .nombreTituloo .nombreTituloLista {
   list-style: none;
   color: rgb(0, 0, 0);
 }
-.nombre {
+.header .nombreTituloo .nombreTituloLista .nombre {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 3.5rem;
 }
-.descripcion {
+.header .nombreTituloo .nombreTituloLista .descripcion {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 2.5rem;
 }
-.sesion{
-  display: flex;  
-  justify-content: end;
-  flex-direction: row;
-}
-.header__sesion{
-  list-style: none;
+.header .nombreTituloo .carrito {
   display: flex;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  padding: 0.5rem;
-  font-size: 2rem;
-}
-
-.carrito {
-  display: flex;  
   justify-content: space-between;
   flex-direction: row;
   list-style: none;
   padding: 15px;
 }
-
-.carrito img {
+.header .nombreTituloo .carrito .carritoImagen {
   padding: 4px;
   width: 40px;
   height: 40px;
@@ -81,220 +56,99 @@ main {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
 }
-
-.cardImg{
+main .novedades {
+  margin: 0 auto;
+}
+main .productosCards .cardImg {
   width: 205px;
-  height: 300px;
+  height: 310px;
   margin: 0 auto;
 }
-
-.cardTitulo{
+main .productosCards .cardTitulo {
+  text-align: center;
+}
+main .productosCards .cardPrecio {
   text-align: center;
 }
 
-.cardPrecio{
-  text-align: center;
+.main__mangas .categorias .categorias__titulo {
+  font-size: 1.5rem;
+}
+.main__mangas .categorias .categorias__lista {
+  list-style: inside;
+  padding: 5px;
 }
 
-.novedades {
-  margin: 0 auto;
-}
-
-.novedades__titulo {
-  display: flex;
-  justify-content: center;
+.main__preguntasFrecuentes .pregunta {
+  font-size: 2.6rem;
   text-decoration: underline;
-  background-color: rgb(255, 145, 77);
+  font-weight: bold;
 }
-
-.novedades__imagen img {
-  display: flex;
-  height: 615px;
-  width: 1200px;
-  padding: 10px;
-  justify-content: space-around;
-}
-
-.recomendados {
-  background-color: rgb(255, 255, 255);
-  height: 670px;
-  width: 1300px;
-}
-
-.recomendados__titulo {
-  justify-content: center;
-  text-align: center;
-  text-decoration: underline;
-  background-color: rgb(255, 145, 77);
-}
-
-.recomendados__imagen {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.recomendados__imagen img {
-  height: 300px;
-  width: 240px;
-  padding: 10px;
-  margin: 5px;
+.main__preguntasFrecuentes .respuesta {
+  font-size: 1.8rem;
 }
 
 footer {
   background-color: #ff914d;
   display: flex;
 }
-
-.mediosPago__titulo {
-  font-size: 1.5rem;
-  padding-left: 1.7rem;
-}
-
-.mediosPago__imagen {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-left: 1.5rem;
-}
-
-.mediosPago__imagen img {
-  height: 85px;
-  width: 85px;
-  padding: 10px;
-  margin: 5px;
-}
-
-.formasEnvio__titulo {
-  font-size: 1.7rem;
-  padding-left: 1.5rem;
-}
-
-.formasEnvio__imagen {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-left: 1.5rem;
-}
-
-.formasEnvio__imagen img {
-  height: 85px;
-  width: 85px;
-  padding: 10px;
-  margin: 5px;
-}
-
-.contactanos__titulo {
-  font-size: 1.7rem;
-  padding-left: 1.5rem;
-}
-
-.contactanos__lista {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  list-style: none;
-  font-size: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-.redesSociales__titulo {
-  font-size: 1.7rem;
-  padding-left: 1.5rem;
-}
-
-.redesSociales__lista {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  list-style: none;
-  font-size: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-.main__mangas {
-  display: flex;
-}
-
-.categorias__titulo {
-  font-size: 1.5rem;
-}
-
-.categorias__lista {
-  list-style: inside;
-  padding: 5px;
-}
-
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  background-color: rgb(255, 255, 255);
-  height: 680px;
-  width: 2299px;
-  padding: 10px;
-  overflow: scroll;
-}
-
-.producto__1 {
-  text-align: center;
-  align-self: center;
-  padding: 10px;
-  margin: 15px;
-}
-
-.producto__1 img {
-  height: 250px;
-  width: 200px;
-}
-
-.producto__nombre {
-  font-size: 1.5rem;
-  margin: 10px 0;
-}
-
-.producto__precio {
+footer .mediosPago .mediosPago__titulo {
   font-size: 1.3rem;
-  font-weight: bold;
+  margin: 10px;
 }
-
-.productos__preventa {
+footer .mediosPago .mediosPago__imagen {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-start;
-  background-color: rgb(255, 255, 255);
-  height: 680px;
-  width: 2299px;
-  overflow: scroll;
+  padding: 10px;
 }
-
-.figuras {
+footer .mediosPago .mediosPago__imagen .tarjetas {
+  height: 85px;
+  width: 85px;
+  padding: 10px;
+  margin: 5px;
+}
+footer .formasEnvio .formasEnvio__titulo {
+  font-size: 1.7rem;
+  padding-left: 1.5rem;
+}
+footer .formasEnvio .formasEnvio__imagen {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-start;
-  background-color: rgb(255, 255, 255);
-  height: 680px;
-  width: 2299px;
-  overflow: scroll;
+  padding-left: 1.5rem;
 }
-
-.pregunta {
-  font-size: 2.6rem;
-  text-decoration: underline;
-  font-weight: bold;
+footer .formasEnvio .formasEnvio__imagen .transporte {
+  height: 85px;
+  width: 85px;
+  padding: 10px;
+  margin: 5px;
 }
-
-.respuesta {
-  font-size: 1.8rem;
+footer .contactanos .contactanos__titulo {
+  font-size: 1.7rem;
+  padding-left: 1.5rem;
+}
+footer .contactanos .contactanos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+}
+footer .redesSociales .redesSociales__titulo {
+  font-size: 1.7rem;
+  padding-left: 1.5rem;
+}
+footer .redesSociales .redesSociales__lista {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */
