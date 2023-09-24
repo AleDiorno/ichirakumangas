@@ -66,19 +66,25 @@ main .productosCards .cardImg {
 }
 main .productosCards .cardTitulo {
   text-align: center;
+  font-size: 1.8rem;
 }
 main .productosCards .cardPrecio {
   text-align: center;
 }
 
 .main__mangas .categorias .categorias__titulo {
-  font-size: 1.5rem;
+  font-size: 2.8rem;
 }
 .main__mangas .categorias .categorias__lista {
   list-style: inside;
   padding: 5px;
 }
 
+.main__preguntasFrecuentes .preguntaTitulo {
+  text-align: center;
+  font-size: 4rem;
+  padding: 10px;
+}
 .main__preguntasFrecuentes .pregunta {
   font-size: 2.6rem;
   text-decoration: underline;
@@ -93,7 +99,7 @@ footer {
   display: flex;
 }
 footer .mediosPago .mediosPago__titulo {
-  font-size: 1.3rem;
+  font-size: 2.8rem;
   margin: 10px;
 }
 footer .mediosPago .mediosPago__imagen {
@@ -110,7 +116,7 @@ footer .mediosPago .mediosPago__imagen .tarjetas {
   margin: 5px;
 }
 footer .formasEnvio .formasEnvio__titulo {
-  font-size: 1.7rem;
+  font-size: 2.8rem;
   padding-left: 1.5rem;
 }
 footer .formasEnvio .formasEnvio__imagen {
@@ -127,7 +133,7 @@ footer .formasEnvio .formasEnvio__imagen .transporte {
   margin: 5px;
 }
 footer .contactanos .contactanos__titulo {
-  font-size: 1.7rem;
+  font-size: 2.8rem;
   padding-left: 1.5rem;
 }
 footer .contactanos .contactanos__lista {
@@ -139,7 +145,7 @@ footer .contactanos .contactanos__lista {
   padding-left: 1.5rem;
 }
 footer .redesSociales .redesSociales__titulo {
-  font-size: 1.7rem;
+  font-size: 2.8rem;
   padding-left: 1.5rem;
 }
 footer .redesSociales .redesSociales__lista {
