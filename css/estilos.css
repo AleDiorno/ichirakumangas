@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   justify-content: start;
-  background-color: rgb(255, 145, 77);
+  background-color: #ff914d;
 }
 .header .nombreTitulo .logo {
   width: 150px;
@@ -62,6 +62,11 @@ main .novedades {
 main .productosCards .cardImg {
   width: 205px;
   height: 310px;
+  margin: 0 auto;
+}
+main .productosCards .imgFigura {
+  width: 310px;
+  height: 260px;
   margin: 0 auto;
 }
 main .productosCards .cardTitulo {
@@ -155,6 +160,10 @@ footer .redesSociales .redesSociales__lista {
   list-style: none;
   font-size: 1.5rem;
   padding-left: 1.5rem;
+}
+footer .redesSociales .redesSociales__lista .instagram img {
+  width: 10px;
+  height: 5px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -50,9 +50,10 @@ footer {
             flex-direction: column;
             list-style: none;
             font-size: 1.5rem;
-            padding-left: 1.5rem;
+            padding-left: 1.5rem; 
         }
     }
+    
     .redesSociales{
         .redesSociales__titulo {
             font-size: 2.8rem;
@@ -65,6 +66,11 @@ footer {
             list-style: none;
             font-size: 1.5rem;
             padding-left: 1.5rem;
+            .instagram img{
+            width: 10px;
+            height: 5px;
         }
+        }
+        
     }
 }
