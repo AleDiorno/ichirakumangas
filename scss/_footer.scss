@@ -7,10 +7,7 @@ footer {
             margin: 10px;
         }
         .mediosPago__imagen {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: space-evenly;
+            @include footer-mixin;
             padding: 10px;
             .tarjetas{
                 height: 85px;
@@ -26,11 +23,7 @@ footer {
             padding-left: 1.5rem;
         }
         .formasEnvio__imagen {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: space-evenly;
-            padding-left: 1.5rem;
+            @include footer-mixin;
             .transporte{
                 height: 85px;
                 width: 85px;
@@ -45,12 +38,8 @@ footer {
             padding-left: 1.5rem;
         }
         .contactanos__lista {
-            display: flex;
-            flex-wrap: wrap;
+            @include footer-mixin;
             flex-direction: column;
-            list-style: none;
-            font-size: 1.5rem;
-            padding-left: 1.5rem; 
         }
     }
     
@@ -60,12 +49,9 @@ footer {
             padding-left: 1.5rem;
         }
         .redesSociales__lista {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            list-style: none;
+            @include footer-mixin;
             font-size: 1.5rem;
-            padding-left: 1.5rem;
+            flex-direction: column;
             .instagram img{
             width: 10px;
             height: 5px;

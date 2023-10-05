@@ -112,6 +112,7 @@ footer .mediosPago .mediosPago__imagen {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-left: 1.5rem;
   padding: 10px;
 }
 footer .mediosPago .mediosPago__imagen .tarjetas {
@@ -144,10 +145,10 @@ footer .contactanos .contactanos__titulo {
 footer .contactanos .contactanos__lista {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  list-style: none;
-  font-size: 1.5rem;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding-left: 1.5rem;
+  flex-direction: column;
 }
 footer .redesSociales .redesSociales__titulo {
   font-size: 2.8rem;
@@ -156,10 +157,11 @@ footer .redesSociales .redesSociales__titulo {
 footer .redesSociales .redesSociales__lista {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  list-style: none;
-  font-size: 1.5rem;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding-left: 1.5rem;
+  font-size: 1.5rem;
+  flex-direction: column;
 }
 footer .redesSociales .redesSociales__lista .instagram img {
   width: 10px;
